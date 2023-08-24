@@ -11,6 +11,10 @@ The data set can be found at https://drive.google.com/drive/folders/1j_GC58IEBez
 ## Question Generation 
 
 - The `CodeBERT` folder contains the question generation model, which is used to generate questions for given code snippets.
+## Statistics
+
+- The `statistics` folder contains the code used in statistical analysis.
+
 ### Dependency
 - pip install torch
 - pip install transformers
