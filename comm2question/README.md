@@ -1,8 +1,5 @@
 # Comment to Question
- We use the generator proposed by * [Syn-QG: Syntactic and Shallow Semantic Rules for Question Generation](https://www.aclweb.org/anthology/2020.acl-main.69.pdf)
-
-
-In order to get up and running, perform the following steps
+We use the generator proposed by Kaustubh et al. In order to get up and running, perform the following steps
 
 0. Ensure that you have the Parsing Server installed and running. 
 (The Parsing Server is a modified version of the flask server of AllenNLP so it not only contains AllenNLP models 
