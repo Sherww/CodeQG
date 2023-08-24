@@ -1,0 +1,90 @@
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Java",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ]
+        },
+        {
+            "name": "Java Console App",
+            "type": "java",
+            "request": "launch",
+            "stopOnEntry": true,
+            "jdkPath": "${env:JAVA_HOME}/bin",
+            "cwd": "${fileDirname}",
+            "startupClass": "${fileBasenameNoExtension}",
+            "classpath": [
+                ".",
+                "${fileDirname}"
+            ],
+            "externalConsole": true
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch) - Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-Application<question>",
+            "request": "launch",
+            "mainClass": "com.example.Application",
+            "projectName": "question"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-BackTranslatorConsoleService<syntactic-question-generator>",
+            "request": "launch",
+            "mainClass": "net.synqg.qg.backtranslation.BackTranslatorConsoleService",
+            "projectName": "syntactic-question-generator"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-LanguageModelConsoleScorer<syntactic-question-generator>",
+            "request": "launch",
+            "mainClass": "net.synqg.qg.lm.LanguageModelConsoleScorer",
+            "projectName": "syntactic-question-generator"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-ParaphraseServiceImpl<syntactic-question-generator>",
+            "request": "launch",
+            "mainClass": "net.synqg.qg.paraphrase.ParaphraseServiceImpl",
+            "projectName": "syntactic-question-generator"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-QuestionGenerationConsoleService<syntactic-question-generator>",
+            "request": "launch",
+            "mainClass": "net.synqg.qg.service.QuestionGenerationConsoleService",
+            "projectName": "syntactic-question-generator"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-SynQgClient<syntactic-question-generator>",
+            "request": "launch",
+            "mainClass": "net.synqg.qg.service.SynQgClient",
+            "projectName": "syntactic-question-generator"
+        },
+        {
+            "type": "java",
+            "name": "Debug (Launch)-WordToNounConverter<syntactic-question-generator>",
+            "request": "launch",
+            "mainClass": "net.synqg.qg.utils.WordToNounConverter",
+            "projectName": "syntactic-question-generator"
+        }
+    ]
+}
