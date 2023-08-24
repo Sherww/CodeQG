@@ -15,4 +15,6 @@ The data set can be found at https://drive.google.com/drive/folders/1j_GC58IEBez
 - pip install torch
 - pip install transformers
 
-
+### Train
+* The model training and prediction were conducted on a machine with Nvidia GTX 1080 GPU, Intel(R) Core(TM) i7-6700 CPU and 16 GB RAM. The operating system is Ubuntu.
+* Please refer to the paper for the detailed parameters of the model.
