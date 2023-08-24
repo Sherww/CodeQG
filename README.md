@@ -3,7 +3,7 @@ This repository stores the details of paper "CodeQG: Automated Multiple Question
 
 ## Dataset
 
-The data set can be found at https://drive.google.com/drive/folders/1j_GC58IEBezeBUK_DhvgY-wSHxNp3d9f?usp=sharing
+The complete data set can be found at https://drive.google.com/drive/folders/1j_GC58IEBezeBUK_DhvgY-wSHxNp3d9f?usp=sharing
 
 ## Inline comment-to-question
 - The `comm2question` folder contains the comment-to-question model, which converts inline comments into questions.
